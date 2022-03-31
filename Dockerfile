@@ -94,6 +94,3 @@ FROM bitnami/express:4.17.3-debian-10-r13
 
 # Tags: 4.17.3-debian-10-r12
 FROM bitnami/express:4.17.3-debian-10-r12
-
-# Tags: 4.17.3-debian-10-r11
-FROM bitnami/express:4.17.3-debian-10-r11
