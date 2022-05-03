@@ -1,12 +1,15 @@
-# Tags: latest, 4.18.1-debian-10-r2, 4.18.1, 4-debian-10, 4
+# Tags: latest, 4.18.1-debian-10-r3, 4.18.1, 4-debian-10, 4
 FROM bitnami/express:latest
-FROM bitnami/express:4.18.1-debian-10-r2
+FROM bitnami/express:4.18.1-debian-10-r3
 FROM bitnami/express:4.18.1
 FROM bitnami/express:4-debian-10
 FROM bitnami/express:4
 
 # Tags: _
 FROM bitnami/express:_
+
+# Tags: 4.18.1-debian-10-r2
+FROM bitnami/express:4.18.1-debian-10-r2
 
 # Tags: 4.18.1-debian-10-r1
 FROM bitnami/express:4.18.1-debian-10-r1
@@ -93,6 +96,3 @@ FROM bitnami/express:4.17.3-debian-10-r46
 
 # Tags: 4.17.3-debian-10-r45
 FROM bitnami/express:4.17.3-debian-10-r45
-
-# Tags: 4.17.3-debian-10-r44
-FROM bitnami/express:4.17.3-debian-10-r44
